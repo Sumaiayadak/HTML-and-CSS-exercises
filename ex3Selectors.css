@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+    
+    
+}
+.container > div {
+    border: 3px solid black; 
+    padding: 30px;          
+    margin: 5px;   }
+
+    .container > div:nth-child(odd) {
+        background-color: red; 
+      }
+      
+      .container > div:nth-child(even) {
+        background-color: blue;
+      }
+
+      .container > div:nth-child(7) {
+        color: azure;
+      }
+      
